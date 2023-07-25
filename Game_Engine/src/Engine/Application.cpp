@@ -1,6 +1,7 @@
 #include "Application.h"
 
 namespace Engine {
+	
 	Application::Application() {
 
 	}
@@ -10,6 +11,6 @@ namespace Engine {
 	}
 
 	void Application::Run() {
-		while (true);
+		while (Window::IsWindowOpen());
 	}
 }
